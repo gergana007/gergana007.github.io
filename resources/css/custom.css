@@ -1,0 +1,83 @@
+lightgraybody, html {
+  font-size: 18px;
+}
+
+a {
+  color: black;
+}
+
+h1 {
+  padding: 30px;
+  color: #8c2d26;
+}
+
+section {
+    padding: 0 3em 3em 3em;
+}
+
+/* Bootstrap overwrites */
+.navbar-inverse {
+  background-color: #8c2d26;
+}
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav>li>a {
+    color: lightgray;
+}
+
+/* Navbar */
+
+.navbar {
+  margin-bottom: 0;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+  margin: 0;
+  background-color: rgba(40, 113, 140, .70);
+}
+
+.jumbotron p {
+  font-style: italic;
+  margin-bottom: 0;
+  color: lightgray;
+}
+.jumbotron h1 {
+  color: lightgray;
+}
+
+.btn {
+  background-color: #8c2d26;
+  font-style: normal;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  color: lightgray;
+}
+
+/* Portfolio Section */
+
+#portfolio {
+  background-color: rgba(40, 113, 140, .80);
+}
+
+.row img {
+  margin: 20px 0;
+}
+
+#portfolio a, #portfolio h1 {
+  color: lightgray;
+}
+
+/*Contact Section*/
+
+.contact {
+  padding: 1em;
+}
+
+/* Footer */
+
+footer {
+  background: #8c2d26;
+  color: lightgray;
+  padding: .6em;
+}
